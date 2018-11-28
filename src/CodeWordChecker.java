@@ -1,13 +1,14 @@
-public class CodeWordChecker
+public class CodeWordChecker implements StringChecker
+
 {
+    private int min;
+    private int max;
+    private char symbol;
 
-    this.StringChecker sc1 = new CodeWordChecker(int min ,int max ,char symbol);
-
-    int min = 5 ;
-    int max = 8 ;
-    char symbol = "$";
-
-
-    this.StringChecker sc2 = new CodeWordChecker(char symbol)
-    char symbol = "pass";
+public StringChecker (int min , int max , char symbol){
+    
+    this.min = min ;
+    this.max = max ;
+    this.symbol = symbol;
+}
 }
